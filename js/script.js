@@ -49,13 +49,7 @@ cidadeInput.addEventListener("keyup", (e) => {
     if (e.code === "Enter") {
         const cidade = e.target.value
 
-        if (cidadeInput != "") {
-            mostrarDadosMeteorologicos(cidade)
-        }
-        else{
-            alert("Não foi possivel encontrar essa")
-        }
-
+        mostrarDadosMeteorologicos(cidade)
     }
 })
 
