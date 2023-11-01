@@ -1,10 +1,11 @@
 /* Geral */
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: "Ubuntu", sans-serif;
 }
-body{
+
+body {
     background: linear-gradient(180deg, #594cee 0%, #8dd0f5 100%);
     display: flex;
     justify-content: center;
@@ -30,18 +31,18 @@ body{
     margin-bottom: 1rem;
 }
 
-.form-input-container{
+.form-input-container {
     display: flex;
 }
 
-.form input{
+.form input {
     padding: .8rem;
     border: none;
-    flex:1;
+    flex: 1;
     border-radius: 4px;
 }
 
-.form button{
+.form button {
     min-width: 50px;
     margin-left: 8px;
     background-color: #8dd0f5;
@@ -51,32 +52,39 @@ body{
     cursor: pointer;
 }
 
+ #backspace{
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: #f91e1e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
 /*Clima*/
 
-#weather-data{
+#dadosClima {
     border-top: 1px solid #fff;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
     text-align: center;
 }
 
-#weather-data h2{
+#dadosClima h2 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 0.6rem;
 }
 
-#weather-data i {
+#dadosClima i {
     font-size: 1rem;
 }
 
-#weather-data span {
+#dadosClima span {
     margin: 0.6rem;
-}
-
-#pais {
-    height: 15px;
 }
 
 #descricao-container {
@@ -86,7 +94,12 @@ body{
     margin: .6rem 0;
 }
 
-#detalhes-container{
+#descricao {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#detalhes-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,4 +110,3 @@ body{
     margin: 0.6rem;
     padding: 0.6rem;
 }
-
